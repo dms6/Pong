@@ -28,7 +28,9 @@ def aiUpdate():
         ai.bottom = screenHeight
 
 def reset():
+    global ballSpeedX
     ball.center = (screenWidth/2, screenHeight/2)
+    ballSpeedX *= -1
 
 
 # initializing variables
